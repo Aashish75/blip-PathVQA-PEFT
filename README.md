@@ -16,20 +16,31 @@ This repository contains code for **fine-tuning the BLIP model** on the **PathVQ
   from datasets import load_dataset
   dataset = load_dataset("flaviagiammarino/path-vqa")
 
-📊 Evaluation Results
-The training significantly increased the capabilities of the base BLIP model in pathological visual question answering (yes/no questions).
+## 📊 Evaluation Results
 
-🔹 After LoRA Fine-Tuning
-Metric	Score
-Accuracy	85.19%
-Precision	85.89%
-Recall	86.84%
-F1 Score	86.36%
-🔹 Before Fine-Tuning (BLIP Base Model)
-Metric	Score
-Accuracy	51.64%
-Precision	53.44%
-Recall	81.22%
-F1 Score	64.47%
-🔹 Overall Improvements
-Metric	Increase
+The training significantly increased the capabilities of the base BLIP model in **pathological visual question answering (yes/no questions)**.
+
+### **🔹 After LoRA Fine-Tuning**
+| **Metric**  | **Score** |
+|-------------|----------|
+| Accuracy    | **85.19%** |
+| Precision   | **85.89%** |
+| Recall      | **86.84%** |
+| F1 Score    | **86.36%** |
+
+### **🔹 Before Fine-Tuning (BLIP Base Model)**
+| **Metric**  | **Score** |
+|-------------|----------|
+| Accuracy    | **51.64%** |
+| Precision   | **53.44%** |
+| Recall      | **81.22%** |
+| F1 Score    | **64.47%** |
+
+### **🔹 Overall Improvements**
+| **Metric**  | **Increase** |
+|-------------|-------------|
+| Accuracy    | **+33.55%** |
+| Precision   | **+32.45%** |
+| Recall      | **+5.62%** |
+| F1 Score   
+
