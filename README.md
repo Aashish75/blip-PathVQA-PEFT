@@ -42,5 +42,7 @@ The training significantly increased the capabilities of the base BLIP model in 
 | Accuracy    | **+33.55%** |
 | Precision   | **+32.45%** |
 | Recall      | **+5.62%** |
-| F1 Score   
+| F1 Score    | **+21.89%** |
+
+✅ **LoRA significantly improves performance while being computationally efficient!**
 
